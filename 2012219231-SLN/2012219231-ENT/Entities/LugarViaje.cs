@@ -8,8 +8,13 @@ namespace _2012219231_ENT.Entities
 {
     public class LugarViaje
     {
-        public int idLugar { get; set; }
-        public string nomLugar { get; set; }
+        public TipoLugar TipoLugar { get; set; }
+        public string Descripcion { get; set; }
 
+
+        public LugarViaje()
+        {
+            TipoLugar = new TipoLugar();
+        }
     }
 }

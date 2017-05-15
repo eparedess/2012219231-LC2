@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _2012219231_ENT.Entities
 {
-    class TipoLugar
+    public class TipoLugar
     {
     }
 }

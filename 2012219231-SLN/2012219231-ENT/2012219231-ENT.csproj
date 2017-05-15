@@ -53,7 +53,7 @@
     <Compile Include="Entities\TipoTripulacion.cs" />
     <Compile Include="Entities\TipoViaje.cs" />
     <Compile Include="Entities\Transporte.cs" />
-    <Compile Include="Entities\Tripulación.cs" />
+    <Compile Include="Entities\Tripulacion.cs" />
     <Compile Include="Entities\Venta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

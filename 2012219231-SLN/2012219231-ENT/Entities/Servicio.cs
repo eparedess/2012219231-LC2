@@ -8,8 +8,8 @@ namespace _2012219231_ENT.Entities
 {
     public class Servicio
     {
-        public int idSer { get; set; }
-        public string nomSer { get; set; }
+        public int tipSer {get ; set; }
+        
 
     }
 }

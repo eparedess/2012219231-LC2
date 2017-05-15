@@ -8,8 +8,18 @@ namespace _2012219231_ENT.Entities
 {
     public class Bus
     {
-        public int idBus { get; set; }
-        public string modelBus { get; set; }
-        public string colorBus { get; set; }
+        public Tripulacion Tripulacion { get; set; }
+
+        public Bus()
+        {
+
+        }
+
+        public Bus(Tripulacion tripulacion)
+        {
+            Tripulacion = tripulacion;
+        }
+
+        public string Placa { get; set; }
     }
 }

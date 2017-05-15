@@ -40,8 +40,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="2012219231Context.cs" />
+    <Compile Include="Configuration\AdministrativoConfiguration.cs" />
+    <Compile Include="Configuration\BusConfiguration.cs" />
+    <Compile Include="Configuration\ClienteConfiguration.cs" />
+    <Compile Include="Configuration\EmpleadoConfiguration.cs" />
+    <Compile Include="Configuration\EncomiendaConfiguration.cs" />
+    <Compile Include="Configuration\LugarViajeConfiguration.cs" />
+    <Compile Include="Configuration\ServicioConfiguration.cs" />
+    <Compile Include="Configuration\TipoComprobanteConfiguration.cs" />
+    <Compile Include="Configuration\TipoLugarConfiguration.cs" />
+    <Compile Include="Configuration\TipoPagoConfiguration.cs" />
+    <Compile Include="Configuration\TipoTripulacionConfiguration.cs" />
+    <Compile Include="Configuration\TipoViajeConfiguration.cs" />
+    <Compile Include="Configuration\TransporteConfiguration.cs" />
+    <Compile Include="Configuration\TripulacionConfiguration.cs" />
+    <Compile Include="Configuration\VentaConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\2012219231-ENT\2012219231-ENT.csproj">
+      <Project>{620c8af1-35c0-4504-9c59-380d7bf3b51b}</Project>
+      <Name>2012219231-ENT</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

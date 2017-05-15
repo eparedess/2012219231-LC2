@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace _2012219231_ENT.Entities
 {
-    class Servicio
+    public class Servicio
     {
+        public int idSer { get; set; }
+        public string nomSer { get; set; }
+
     }
 }

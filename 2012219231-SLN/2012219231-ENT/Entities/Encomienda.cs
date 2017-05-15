@@ -8,5 +8,8 @@ namespace _2012219231_ENT.Entities
 {
     class Encomienda
     {
+        public int idEnco { get; set; }
+        public int pesoEnco { get; set; }
+
     }
 }

@@ -7,12 +7,19 @@ using System.Linq;
 using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
+using Transporte.Entities.IRepositories;
+
+
 
 namespace _2012219231_PER.Repositories
 {
-    class AdministrativoRepository 
-        {
+    public class AdministrativoRepository : Repository<Administrativo>, IAdministrativoRepository
+    {
 
+        public AdministrativoRepository(DbContext context) : base(context)
+        {
         }
+
     }
+}
 

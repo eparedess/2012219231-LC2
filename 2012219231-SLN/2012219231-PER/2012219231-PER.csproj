@@ -30,7 +30,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -47,7 +54,6 @@
     <Compile Include="Configuration\EncomiendaConfiguration.cs" />
     <Compile Include="Configuration\LugarViajeConfiguration.cs" />
     <Compile Include="Configuration\ServicioConfiguration.cs" />
-    <Compile Include="Configuration\TipoComprobanteConfiguration.cs" />
     <Compile Include="Configuration\TipoLugarConfiguration.cs" />
     <Compile Include="Configuration\TipoPagoConfiguration.cs" />
     <Compile Include="Configuration\TipoTripulacionConfiguration.cs" />
@@ -81,6 +87,10 @@
       <Project>{620c8af1-35c0-4504-9c59-380d7bf3b51b}</Project>
       <Name>2012219231-ENT</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

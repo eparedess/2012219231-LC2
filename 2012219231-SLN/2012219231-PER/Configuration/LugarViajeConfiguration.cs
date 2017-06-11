@@ -19,14 +19,6 @@ namespace _2012219231_PER.Configuration
             HasKey(a => a.LugarViajeId);
 
 
-            ////Relation Configurations
-            ////HasRequired(c => c.Transporte)
-            ////    .WithMany(c => c.LugarViajes)
-            ////    .HasForeignKey(c => c.TransporteId);
-
-            ////HasMany(c => c.Encomiendas)
-            ////    .WithRequired(c => c.LugarViaje)
-            ////    .HasForeignKey(c => c.LugarViajeId);
         }
     }
-    }
+}

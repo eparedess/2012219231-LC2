@@ -13,8 +13,10 @@ namespace _2012219231_PER.Repositories
     public class BusRepository : Repository<Bus>, IBusRepository
     {
 
-        public BusRepository(DbContext context) : base(context)
+        public BusRepository(TransporteDbContext context) : base(context)
         {
 
         }
+
     }
+}

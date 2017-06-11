@@ -19,15 +19,6 @@ namespace _2012219231_PER.Configuration
             HasKey(a => a.ClienteId);
 
 
-            //Relation Configurations
-
-            //HasMany(c => c.Ventas)
-            //    .WithRequired(c => c.Cliente)
-            //    .HasForeignKey(c => c.ClienteId);
-
-            //HasRequired(c => c.Transporte)
-            //    .WithMany(c => c.Clientes)
-            //    .HasForeignKey(c => c.TransporteId);
         }
     }
 }

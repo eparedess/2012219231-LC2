@@ -18,8 +18,6 @@ namespace _2012219231_PER.Configuration
             HasKey(a => a.ServicioId);
 
 
-            //Map<Transport>(m => m.Requires("Discriminator").HasValue("Transportes"));
-            //Map<Encomienda>(m => m.Requires("Discriminator").HasValue("Encomiendas"));
         }
     }
 }

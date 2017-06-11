@@ -8,9 +8,6 @@ namespace _2012219231_ENT.Entities
 {
     public class Tripulacion : Empleado
     {
-        public TipoTripulacion TipoTripulacion { get; set; }
 
-        public Bus Bus { get; set; }
-        public int BusId { get; set; }
     }
 }

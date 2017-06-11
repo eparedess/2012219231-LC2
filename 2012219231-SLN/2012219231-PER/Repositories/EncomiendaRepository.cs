@@ -1,4 +1,5 @@
 ﻿using _2012219231_ENT.Entities;
+using _2012219231_ENT.IRepositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +11,9 @@ namespace _2012219231_PER.Repositories
     public class EncomiendaRepository : Repository<Encomienda>, IEncomiendaRepository
     {
 
-        public EncomiendaRepository(DbContext context) : base(context)
+        public EncomiendaRepository(TransporteDbContext context) : base(context)
         {
         }
+
     }
 }

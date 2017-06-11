@@ -8,12 +8,7 @@ namespace _2012219231_ENT.Entities
 {
    public class Administrativo : Empleado
     {
-        public List<Venta> Ventas { get; set; }
 
-        public Administrativo()
-        {
-            Ventas = new List<Venta>();
-        }
 
     }
 }

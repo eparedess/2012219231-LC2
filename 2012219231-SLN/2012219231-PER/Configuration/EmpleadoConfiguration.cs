@@ -19,3 +19,4 @@ namespace _2012219231_PER.Configuration
             Map<Tripulacion>(m => m.Requires("Discriminator").HasValue("Tripulaciones"));
         }
     }
+}

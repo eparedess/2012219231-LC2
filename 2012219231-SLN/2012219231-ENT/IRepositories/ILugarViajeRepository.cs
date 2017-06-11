@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _2012219231_ENT.IRepositories
 {
-   public interface ILugarViajeRepository : IRepository<LugarViaje>
+    public interface ILugarViajeRepository : IRepository<LugarViaje>
     {
     }
 }

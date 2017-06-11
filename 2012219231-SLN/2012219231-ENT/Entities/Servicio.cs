@@ -10,13 +10,6 @@ namespace _2012219231_ENT.Entities
     {
         public int ServicioId { get; set; }
 
-        public DateTime Hora { get; set; }
-        public String Fecha { get; set; }
-        public string Direccion { get; set; }
-
-        public Venta Venta { get; set; }
-        public int VentaId { get; set; }
-
 
     }
 }

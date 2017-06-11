@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _2012219231_ENT.IRepositories
 {
-   public interface IBusRepository : IRepository<Bus>
+    public interface IBusRepository : IRepository<Bus>
     {
     }
 }

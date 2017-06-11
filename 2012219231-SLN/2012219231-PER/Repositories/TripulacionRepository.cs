@@ -1,4 +1,6 @@
-﻿using System;
+﻿using _2012219231_ENT.Entities;
+using _2012219231_ENT.IRepositories;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +8,12 @@ using System.Threading.Tasks;
 
 namespace _2012219231_PER.Repositories
 {
-    class TripulacionRepository
+    public class TripulacionRepository : Repository<Tripulacion>, ITripulacionRepository
     {
+
+        public TripulacionRepository(TransporteDbContext context) : base(context)
+        {
+        }
+
     }
 }

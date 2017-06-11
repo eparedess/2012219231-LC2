@@ -8,13 +8,19 @@ namespace _2012219231_ENT.Entities
 {
     public class LugarViaje
     {
-        public TipoLugar TipoLugar { get; set; }
-        public string Descripcion { get; set; }
+        public int LugarViajeId { get; set; }
 
+        public TipoLugar TipoLugar { get; set; }
+        public Transporte Transporte { get; set; }
+        public int TransporteId { get; set; }
+
+        public string Observacion { get; set; }
+
+        public List<Encomienda> Encomiendas { get; set; }
 
         public LugarViaje()
         {
-            TipoLugar = new TipoLugar();
+            Encomiendas = new List<Encomienda>();
         }
     }
 }

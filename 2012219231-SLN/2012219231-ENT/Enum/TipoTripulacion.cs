@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace _2012219231_ENT.Entities
 {
-   public class TipoPago
+    public enum TipoTripulacion
     {
+        Capitan,
+        Teniente,
+        Contramestre,
+        Oficial
     }
+}
 }

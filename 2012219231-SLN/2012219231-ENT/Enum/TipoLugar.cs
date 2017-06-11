@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace _2012219231_ENT.Entities
 {
-    public class TipoViaje
+    public enum TipoLugar
     {
-        public string Descripcion { get; set; }
-
+        Lugar1,
+        Lugar2,
+        Lugar3
     }
 }

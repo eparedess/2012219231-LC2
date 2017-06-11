@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2012219231_PER.Configuration
+namespace _2012219231_ENT.Entities
 {
-    class AdministrativoConfiguration
+    public enum TipoViaje
     {
+        Tipo1,
+        Tipo2
+
     }
 }

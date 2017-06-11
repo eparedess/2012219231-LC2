@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2012219231_ENT.Entities
 {
-    public class TipoComprobante
+   public enum TipoPago
     {
+        Contado,
+        Credito
     }
 }

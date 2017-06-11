@@ -8,25 +8,17 @@ namespace _2012219231_ENT.Entities
 {
     public class Transporte : Servicio
     {
-        public Bus Bus { get; set; }
-        public Cliente Cliente { get; set; }
         public TipoViaje TipoViaje { get; set; }
-        public LugarViaje LugarViaje { get; set; }
 
+        public List<LugarViaje> LugarViajes { get; set; }
+        public List<Bus> Buses { get; set; }
+        public List<Cliente> Clientes { get; set; }
 
-        private Transporte()
+        public Transporte()
         {
-            Cliente = new Cliente();
-            TipoViaje = new TipoViaje();
-            LugarViaje = new LugarViaje();
-        }
-
-        public Transporte(Bus bus)
-        {
-            Bus = bus;
-            Cliente = new Cliente();
-            TipoViaje = new TipoViaje();
-            LugarViaje = new LugarViaje();
+            Buses = new List<Bus>();
+            LugarViajes = new List<LugarViaje>();
+            Clientes = new List<Cliente>();
         }
     }
 }
